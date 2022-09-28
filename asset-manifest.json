@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6236a227.css",
+    "main.js": "/portfolio/static/js/main.f5376cef.js",
+    "static/media/liveOak.JPG": "/portfolio/static/media/liveOak.0ff4aba585c79608d86b.JPG",
+    "static/media/portfolioSS.PNG": "/portfolio/static/media/portfolioSS.4b5ad8fa35548efc5e01.PNG",
+    "static/media/elasmo_rp.PNG": "/portfolio/static/media/elasmo_rp.b5e6bc5051539ffc95ca.PNG",
+    "static/media/parkTracker.PNG": "/portfolio/static/media/parkTracker.fea3e125475d9c8a4dfb.PNG",
+    "static/media/barberCave.PNG": "/portfolio/static/media/barberCave.16e52b6c8e36b8bc6a65.PNG",
+    "index.html": "/portfolio/index.html",
+    "main.6236a227.css.map": "/portfolio/static/css/main.6236a227.css.map",
+    "main.f5376cef.js.map": "/portfolio/static/js/main.f5376cef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6236a227.css",
+    "static/js/main.f5376cef.js"
+  ]
+}
