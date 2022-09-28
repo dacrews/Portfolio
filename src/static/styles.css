@@ -1,0 +1,176 @@
+.pageTitle {
+    text-align: center;
+}
+
+/* 
+
+About 
+
+*/
+
+#imgDiv {
+    width: 60%;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+#headerImg {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.aboutCardContent {
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+
+.aboutContent {
+    width: 80%;
+    margin: auto;
+}
+
+.aboutContent p{
+    margin: 10px auto 10px auto;
+}
+
+/*
+
+Contact
+
+*/
+
+#contact {
+    text-align: center;
+}
+
+#contactIcons {
+    margin: 40px;
+}
+
+/*
+
+Header
+
+*/
+
+#header {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    font-size: 5rem !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header h4 {
+    font-size: 2rem;
+    -webkit-animation: fadein 3s;
+}
+
+.header h1 {
+    font-size: 5rem;
+    -webkit-animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/*
+
+Nav
+
+*/
+
+nav {
+    background: rgba(0, 0, 0, 0.4);
+    width: max-content;
+    height: auto;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a {
+    color: #0d7a92 !important;
+}
+
+nav a:hover {
+    color: #beced1 !important;
+}
+
+a {
+    margin: 10px;
+}
+
+nav a.active {
+    color: #beced1 !important;
+}
+
+/*
+
+Projects
+
+*/
+
+.flexCards {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cardContent {
+    width: 25%;
+    margin: 10px !important;
+    height: auto;
+    color: black;
+}
+
+.btn {
+    margin: 5px;
+    position: relative;
+    bottom: 0;
+    padding: 5px;
+}
+
+.btnGroup {
+    bottom: 0;
+    position: absolute;
+    right: 5px;
+}
+
+@media screen and (max-width: 501px) {
+    #projects {
+        height: auto;
+    }
+    
+    .flexCards {
+        display: block !important;
+    }
+
+    .cardContent, .aboutCardContent {
+        width: 100% !important;
+        padding: 0px;
+    }
+
+    #imgDiv {
+        width: 100%;
+    }
+
+    #longCard {
+        height: 620px !important;
+    }
+}
