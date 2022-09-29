@@ -68,7 +68,7 @@ const Projects = () => {
                         </div>
                     </Card.Body>
                 </Card>
-                <Card className="cardContent">
+                <Card className="cardContent" id="medCard">
                     <Card.Img className="img-fluid" variant="top" src={Portfolio} />
                     <Card.Body>
                         <Card.Title>Portfolio</Card.Title>

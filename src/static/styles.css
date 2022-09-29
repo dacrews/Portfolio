@@ -173,4 +173,8 @@ Projects
     #longCard {
         height: 620px !important;
     }
+
+    #medCard {
+        height: 480px;
+    }
 }
