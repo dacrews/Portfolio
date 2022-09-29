@@ -4,5 +4,5 @@
 
 ## Technologies Used:
 * Frameworks: React, Bootstrap
-* Languages: HTML, CSS, JSX(JavaScript syntax extension)
-* Ohter: react-icons
+* Languages: HTML, CSS, JSX (JavaScript syntax extension)
+* Other: react-icons
