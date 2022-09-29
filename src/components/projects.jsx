@@ -37,7 +37,7 @@ const Projects = () => {
                     <Card.Body>
                         <Card.Title>Park & Trail Tracker</Card.Title>
                         <Card.Text>
-                        <p>This Park & Trail usage tracker that gathers the location of park visitors and records how they spent their time while utilizing Raleigh city parks and greenway trails.</p>
+                        <p>Park & Trail usage tracker that gathers the location of park visitors and records how they spent their time while utilizing Raleigh city parks and greenway trails.</p>
                         <p>Technologies Used:</p>
                         <ul>
                             <li>Libraries: Leaflet, jQuery, Chart.js</li>
