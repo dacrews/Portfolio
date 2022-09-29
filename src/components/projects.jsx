@@ -81,8 +81,8 @@ const Projects = () => {
                         </ul>
                         </Card.Text>
                         <div className="btnGroup">
-                            <Button href=".header" target="_blank" variant="dark">Live Site</Button>
-                            <Button href="" target="_blank" variant="dark">GitHub</Button>
+                            <Button href="https://dacrews.github.io/portfolio/" variant="dark">Live Site</Button>
+                            <Button href="https://github.com/dacrews/portfolio" target="_blank" variant="dark">GitHub</Button>
                         </div>
                     </Card.Body>
                 </Card>
